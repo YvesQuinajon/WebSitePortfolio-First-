@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hangman Game - Portfolio</title>
+
+<style>
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: #d4af37;
+  }
+
+  header {
+    background-color: #111;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 2px solid #d4af37;
+  }
+
+  nav {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000;
+    border-bottom: 1px solid #d4af37;
+  }
+
+  nav a {
+    color: #d4af37;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  main {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #111;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+  }
+
+  h2 {
+    text-align: center;
+    color: #ffdf6c;
+    margin-top: 0;
+  }
+
+  h3 {
+    color: #ffdf6c;
+  }
+
+  p, li {
+    color: #e0c978;
+  }
+
+  ul {
+    margin-left: 20px;
+  }
+
+  .placeholder-box {
+    width: 260px;
+    height: 160px;
+    border: 2px dashed #d4af37;
+    border-radius: 10px;
+    margin: 0 auto 25px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffdf6c;
+    font-size: 1.1em;
+    box-shadow: 0 0 10px rgba(212,175,55,0.4);
+  }
+
+  video {
+    display: block;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(212,175,55,0.4);
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #d4af37;
+    color: #bfa14a;
+    margin-top: 40px;
+  }
+</style>
+
+</head>
+<body>
+
+<header>
+  <h1>My Professional Profile</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="education.html">Education</a>
+  <a href="experience.html">Experience</a>
+  <a href="skills.html">Skills</a>
+  <a href="certifications.html">Certifications</a>
+  <a href="advocacy.html">Advocacy</a>
+  <a href="portfolio.html">Portfolio</a>
+</nav>
+
+<main>
+
+
+  <div class="placeholder-box">
+    <strong>🎮 HANGMAN GAME</strong>
+    <span>(Java Project)</span>
+  </div>
+
+  <h2>Hangman Game (Java)</h2>
+
+  <section>
+    <h3>Project Overview</h3>
+    <p>
+      The Hangman Game is a Java-based console application where the player guesses letters 
+      to uncover a hidden word. The game tracks wrong guesses, updates the hangman figure 
+      after each mistake, and ends when the player wins or exhausts all attempts.
+    </p>
+  </section>
+
+  <section>
+    <h3>Key Features</h3>
+    <ul>
+      <li>Random word selection</li>
+      <li>Input validation and correct/incorrect letter checking</li>
+      <li>ASCII hangman figure updates after each wrong attempt</li>
+      <li>Win or lose game states</li>
+      <li>Replay option after finishing a round</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Technologies Used</h3>
+    <p>Java, Loops, Conditionals, Arrays, OOP Basics</p>
+  </section>
+
+  <section>
+    <h3>Project Demonstration</h3>
+    <p style="text-align:center;">
+      Below is a short demonstration of the Hangman game in action:
+    </p>
+
+    <!-- Replace the source with your actual video -->
+    <video controls>
+      <source src="ProgramDemo.mp4" type="video/mp4">
+      Your browser does not support video playback.
+    </video>
+  </section>
+
+  <section>
+    <h3>Future Enhancements</h3>
+    <ul>
+      <li>Graphical User Interface (JavaFX)</li>
+      <li>Difficulty modes (Easy, Medium, Hard)</li>
+      <li>Larger word dictionary</li>
+      <li>Category selection (Animals, Movies, Countries, etc.)</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  © 2025 My Portfolio. All Rights Reserved.
+</footer>
+
+</body>
+</html>

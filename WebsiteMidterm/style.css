@@ -1,0 +1,27 @@
+body {
+  background-color: #000; /* black background */
+  color: #d4af37; /* gold text */
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2, h3 {
+  color: #ffdf6c; /* titles same as hero section */
+}
+
+p, li {
+  color: #e0c978; /* paragraph and list text */
+}
+
+video {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(212,175,55,0.5);
+}
